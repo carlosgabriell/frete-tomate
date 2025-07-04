@@ -1,0 +1,8 @@
+type Query {
+  frete(quantidade: Int!, distancia: Int!): FreteResponse
+}
+
+type FreteResponse {
+  precoFrete: Float!
+  veiculo: String!
+}
